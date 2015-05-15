@@ -1,0 +1,36 @@
+{
+  "name": "fireWeatherBE",
+  "version": "0.0.1",
+  "description": "backend for a simple weather app that gets data from the OpenWeather API for four locations and saves to FireBase ",
+  "main": "server.js",
+  "scripts": {
+    "test": "export NODE_ENV=test and jasmine-node tests/**/*.spec.js --watch --color",
+    "start-dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andela-tsokari/fireWeatherBE.git"
+  },
+  "keywords": [
+    "ExpressJS",
+    "FireBase",
+    "NodeJS",
+    "Heroku."
+  ],
+  "author": "Tams Sokari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-tsokari/fireWeatherBE/issues"
+  },
+  "homepage": "https://github.com/andela-tsokari/fireWeatherBE",
+  "dependencies": {
+    "cron": "^1.0.9",
+    "express": "^4.12.3",
+    "firebase": "^2.2.4",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "nodemon": "^1.3.7"
+  }
+}
