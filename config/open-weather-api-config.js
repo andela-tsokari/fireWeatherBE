@@ -1,3 +1,0 @@
-var url = 'http://api.openweathermap.org/data/2.5/weather?q=';
-
-module.exports = url;
